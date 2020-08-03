@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>p2pdemo</title>
+</head>
+<body>
+<div>
+    <div>
+        <div>
+            <label>local</label>
+            <video id="localVideo" autoplay playsinline></video>
+        </div>
+        <div>
+            <lable>remote</lable>
+            <video id="remoteVideo" autoplay playsinline></video>
+        </div>
+    </div>
+    <div>
+        <input id="shareDesk" type="checkbox"/><label for="shareDesk">Share Desktop</label>
+    </div>
+    <div>
+        <button id="online">online</button>
+        <button id="call">call</button>
+        <button id="leave">leave</button>
+        <button id="offline">offline</button>
+    </div>
+</div>
+</body>
+<script src="js/main.js"></script>
+<script src="js/socket.io.js"></script>
+</html>

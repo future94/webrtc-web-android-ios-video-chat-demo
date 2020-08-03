@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-WebRTC4iOS2/Pods-WebRTC4iOS2-frameworks.sh
+${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks/WebRTC.framework
+${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework
+${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework
